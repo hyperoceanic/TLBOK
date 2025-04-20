@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Tech Leads Body of knowledge',
-  tagline: 'Marks Guide to Tech Leadership',
+  title: 'Marks Tech Lead Body of knowledge',
+  tagline: 'A semi-structured body of things to do, or not.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -39,8 +39,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
         },
         blog: {
           showReadingTime: true,
@@ -50,8 +49,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -80,7 +78,11 @@ const config: Config = {
           position: 'left',
           label: 'TLBOK',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+          {
+              to: '/blog',
+              label: 'Blog',
+              position: 'left'
+          },
         {
           href: 'https://github.com/hyperoceanic/TLBOK',
           label: 'GitHub',
@@ -105,16 +107,13 @@ const config: Config = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/tlbok',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Reddit',
+              href: 'https://www.reddit.com/search?q=tlbok',
             },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
+
           ],
         },
         {
