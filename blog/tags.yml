@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+teams:
+    label: teams
+    permalink: /teams
+    description: Teams and team work

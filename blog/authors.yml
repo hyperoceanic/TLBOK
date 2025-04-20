@@ -1,23 +1,12 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+mark:
+  name: Mark Smith
+  title: Site Maintainer
+  url: https://blog.hyperoceanic.com
+  image_url: https://avatars.githubusercontent.com/u/212692?v=4&size=128
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: '/all-mark-smithr-articles'
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    mastodon: eyup@mastodon.sdf.org
+    linkedin: hyperoceanicmarksmith
+    github: hyperoceanic
