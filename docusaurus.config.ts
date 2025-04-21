@@ -21,7 +21,12 @@ const config: Config = {
   projectName: 'TLBOK', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+    onBrokenMarkdownLinks: 'warn',
+
+    markdown: {
+        mermaid: true,
+      },
+      themes: ['@docusaurus/theme-mermaid'],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -144,6 +149,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['powershell', 'elixir', 'csharp', 'fsharp', 'sql', 'hcl', 'json'],
     },
   } satisfies Preset.ThemeConfig,
 };
